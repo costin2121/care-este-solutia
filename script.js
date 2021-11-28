@@ -6,7 +6,7 @@ const vd = document.getElementById('vd')
 
 function checkSolutie() {
     if (!solutia.value) return;
-    if (solutia.value === "cacat futuva-n gura de hoti" || solutia.value ===  "cacat") {
+    if (solutia.value.toLowerCase() === "cacat futuva-n gura de hoti" || solutia.value.toLowerCase() ===  "cacat") {
         crct.innerHTML = "Corect! Esti destept!"
         crct.style.color = "rgba(0,255,0,75)"
         
