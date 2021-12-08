@@ -1,4 +1,5 @@
 const ver = document.getElementById('ver');
+const solutia = document.getElementById('solutie');
 const crct = document.getElementById('crct')
 const vd = document.getElementById('vd')
 
