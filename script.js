@@ -1,5 +1,4 @@
 const ver = document.getElementById('ver');
-const solutia = document.getElementById('solutie');
 const crct = document.getElementById('crct')
 const vd = document.getElementById('vd')
 
@@ -23,7 +22,7 @@ function checkSolutie() {
     }
 }
 
-ver.addEventListener('click', () => {
+solutia.addEventListener('input', () => {
     checkSolutie()
 })
 async function rChild(element, child) {
