@@ -3,6 +3,7 @@ const solutia = document.getElementById('solutie');
 const crct = document.getElementById('crct')
 const vd = document.getElementById('vd')
 
+console.log("Hint: 💩");
 
 function checkSolutie() {
     if (!solutia.value) return;
