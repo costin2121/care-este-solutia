@@ -26,6 +26,3 @@ function checkSolutie() {
 solutia.addEventListener('input', () => {
     checkSolutie()
 })
-async function rChild(element, child) {
-    await element.removeChild(child)
-}
